@@ -1,0 +1,48 @@
+*{
+margin-left:-2px;
+margin-bottom:2px}
+
+Body{
+	Background:#1C1C1C;
+	
+}
+.fotos{
+	position:absolute;
+	left:5.6250em;
+    display: flex;
+	flex-wrap: wrap;
+	gap:0.6250em;
+    
+}
+
+.fotos-item{
+    max-width: 100%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    transition:transform .5s;
+    border-radius: 20px;
+}
+
+.fotos-item:hover{
+
+    transform:scale(1.1);
+}
+
+.cre{
+	position:absolute;
+	top:790px;
+	color:white;
+	Background-image:url("img/foo.jpg") ;
+width:100%;
+text-align:center;	
+}
+
+
+	
+
+.git-img{
+	width:30px;
+	height:30px;
+	
+}
